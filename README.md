@@ -82,3 +82,16 @@ uv run run.py
 1- Create account in [HuggingFace](https://huggingface.co/)
 
 2- Create an Access Token with `Write` permissions [here](https://huggingface.co/settings/tokens) and save it
+
+# Access CodeAssist Web UI
+
+I have 3 ways to do this 
+
+### 1. Ngrok
+
+#### Instal Ngrok
+
+```bash
+wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz && tar -xvzf ngrok-v3-stable-linux-amd64.tgz && sudo mv ngrok /usr/local/bin/
+```
+
