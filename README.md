@@ -3,10 +3,13 @@
 ## 1. Docker
 ```
 sudo apt update -y && sudo apt upgrade -y
+
 ```
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
+
 ```
 sudo apt-get update
+
 ```
 sudo apt-get install ca-certificates curl gnupg
 ```
@@ -24,6 +27,6 @@ echo \
 sudo apt update -y && sudo apt upgrade -y
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-then enter ``Y``
+then enter Y
 ```
 sudo docker run hello-world
