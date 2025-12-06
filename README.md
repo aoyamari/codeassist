@@ -151,3 +151,7 @@ sudo apt install cloudflared
 ```bash
 cloudflared tunnel --url http://localhost:3000
 ```
+
+# Last
+After solved the codeassist problem, `CTRL+C` your log and wait the training done
+🙏🙏🙏
