@@ -89,9 +89,41 @@ I have 3 ways to do this
 
 ### 1. Ngrok
 
-#### Instal Ngrok
+> Install Ngrok
 
 ```bash
 wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz && tar -xvzf ngrok-v3-stable-linux-amd64.tgz && sudo mv ngrok /usr/local/bin/
 ```
 
+~ Regist [ngrok](ngrok.com)
+~ Get your Authtoken [here](https://dashboard.ngrok.com/get-started/your-authtoken)
+~ Paste on your terminal
+
+> Get URL
+
+```bash
+http ngrok 3000
+```
+
+### 2. Localtunnel
+
+> Install Localtunnel
+
+```bash
+sudo npm install -g localtunnel
+```
+> Get Password
+
+```bash
+curl https://loca.lt/mytunnelpassword
+```
+
+The password is actually your VPS IP
+
+> Get URL
+
+```bash
+lt --port 3000
+```
+
+### 3. CloudFlare
