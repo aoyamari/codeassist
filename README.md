@@ -76,3 +76,9 @@ cd codeassist
 ```bash
 uv run run.py
 ```
+
+### Get HuggingFace Access token
+
+1- Create account in [HuggingFace](https://huggingface.co/)
+
+2- Create an Access Token with `Write` permissions [here](https://huggingface.co/settings/tokens) and save it
