@@ -54,3 +54,9 @@ sudo docker run hello-world
 ```bash
 sudo apt install python3 python3-pip python3-venv python3-dev -y
 ```
+
+## 3. UV
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
