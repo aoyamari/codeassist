@@ -77,7 +77,7 @@ cd codeassist
 uv run run.py
 ```
 
-### Get HuggingFace Access token
+# Get HuggingFace Access token
 
 1- Create account in [HuggingFace](https://huggingface.co/)
 
