@@ -1,7 +1,17 @@
 # CodeAssist
 # Installation
 
-## 1. Docker
+## 1. Update System
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+## 2. Install General Utilities and Tools
+```bash
+sudo apt install screen curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y
+```
+
+## 3. Docker
 
 ```bash
 sudo apt update -y && sudo apt upgrade -y
@@ -49,13 +59,13 @@ Then Enter `Y`
 ```bash
 sudo docker run hello-world
 ```
-## 2. Python
+## 4. Python
 
 ```bash
 sudo apt install python3 python3-pip python3-venv python3-dev -y
 ```
 
-## 3. UV
+## 5. UV
 
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
