@@ -61,6 +61,10 @@ sudo apt install python3 python3-pip python3-venv python3-dev -y
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
+```bash
+source $HOME/.local/bin/env
+```
+
 # Download CodeAssist
 
 ```bash
