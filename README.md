@@ -95,9 +95,9 @@ I have 3 ways to do this
 wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz && tar -xvzf ngrok-v3-stable-linux-amd64.tgz && sudo mv ngrok /usr/local/bin/
 ```
 
-~ Regist [ngrok](ngrok.com)
-~ Get your Authtoken [here](https://dashboard.ngrok.com/get-started/your-authtoken)
-~ Paste on your terminal
+- Regist [ngrok](ngrok.com)
+- Get your Authtoken [here](https://dashboard.ngrok.com/get-started/your-authtoken)
+- Paste on your terminal
 
 > Get URL
 
@@ -127,3 +127,27 @@ lt --port 3000
 ```
 
 ### 3. CloudFlare
+
+> Install CloudFlare
+
+```bash
+curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cloudflare-main.gpg
+```
+
+```bash
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare.list
+```
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt install cloudflared
+```
+
+> Get URL
+
+```bash
+cloudflared tunnel --url http://localhost:3000
+```
