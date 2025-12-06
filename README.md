@@ -49,3 +49,8 @@ Then Enter `Y`
 ```bash
 sudo docker run hello-world
 ```
+## 2. Python
+
+```bash
+sudo apt install python3 python3-pip python3-venv python3-dev -y
+```
