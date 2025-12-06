@@ -60,3 +60,19 @@ sudo apt install python3 python3-pip python3-venv python3-dev -y
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
+
+# Download CodeAssist
+
+```bash
+git clone https://github.com/gensyn-ai/codeassist.git
+```
+
+# Running
+
+```bash
+cd codeassist
+```
+
+```bash
+uv run run.py
+```
