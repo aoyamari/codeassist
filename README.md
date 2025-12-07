@@ -1,10 +1,15 @@
 # CodeAssist
 
 • System Requirements
+
 • 12 GB RAM minimum (32 GB recommended)
+
 • Stable internet connection
+
 • At least 10 GB of available storage (for overhead)
+
 • Modern multi-core CPU (Intel, AMD, or Apple Silicon)
+
 
 # Installation
 
